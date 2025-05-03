@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R.FastEndpoints.Generators", "src\R.FastEndpoints.Generators\R.FastEndpoints.Generators.csproj", "{8499F70E-BCB5-431E-85D2-A19F9CA503F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{953B2D8E-E230-4A2C-88EB-607E5291B86E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R.FastEndpoints", "src\R.FastEndpoints\R.FastEndpoints.csproj", "{5A013292-15A9-4EC7-8142-679AB4D6815E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Root", "Root", "{1868E009-4413-4F9E-8CF2-E6AA4CE3614B}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R.FastEndpoints.UnitTests", "tests\R.FastEndpoints.UnitTests\R.FastEndpoints.UnitTests.csproj", "{94EFF3D4-3BE6-49E2-B386-D4A7CA560C80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R.FastEndpoints.MessagePack", "src\R.FastEndpoints.MessagePack\R.FastEndpoints.MessagePack.csproj", "{2D427EE2-075A-4C01-8D73-D060EA2F609B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R.FastEndpoints.TestWeb", "tests\R.FastEndpoints.TestWeb\R.FastEndpoints.TestWeb.csproj", "{F4F6D238-6978-4BD7-934F-5D9AD5D4B7E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R.FastEndpoints.IntegrationTests", "R.FastEndpoints.IntegrationTests\R.FastEndpoints.IntegrationTests.csproj", "{28FB4DE4-9799-4898-ADEF-FC691ECFDF4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8499F70E-BCB5-431E-85D2-A19F9CA503F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8499F70E-BCB5-431E-85D2-A19F9CA503F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8499F70E-BCB5-431E-85D2-A19F9CA503F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8499F70E-BCB5-431E-85D2-A19F9CA503F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A013292-15A9-4EC7-8142-679AB4D6815E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A013292-15A9-4EC7-8142-679AB4D6815E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A013292-15A9-4EC7-8142-679AB4D6815E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A013292-15A9-4EC7-8142-679AB4D6815E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94EFF3D4-3BE6-49E2-B386-D4A7CA560C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94EFF3D4-3BE6-49E2-B386-D4A7CA560C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94EFF3D4-3BE6-49E2-B386-D4A7CA560C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94EFF3D4-3BE6-49E2-B386-D4A7CA560C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D427EE2-075A-4C01-8D73-D060EA2F609B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D427EE2-075A-4C01-8D73-D060EA2F609B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D427EE2-075A-4C01-8D73-D060EA2F609B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D427EE2-075A-4C01-8D73-D060EA2F609B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F6D238-6978-4BD7-934F-5D9AD5D4B7E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F6D238-6978-4BD7-934F-5D9AD5D4B7E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F6D238-6978-4BD7-934F-5D9AD5D4B7E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F6D238-6978-4BD7-934F-5D9AD5D4B7E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28FB4DE4-9799-4898-ADEF-FC691ECFDF4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FB4DE4-9799-4898-ADEF-FC691ECFDF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FB4DE4-9799-4898-ADEF-FC691ECFDF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FB4DE4-9799-4898-ADEF-FC691ECFDF4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94EFF3D4-3BE6-49E2-B386-D4A7CA560C80} = {953B2D8E-E230-4A2C-88EB-607E5291B86E}
+		{F4F6D238-6978-4BD7-934F-5D9AD5D4B7E9} = {953B2D8E-E230-4A2C-88EB-607E5291B86E}
+		{28FB4DE4-9799-4898-ADEF-FC691ECFDF4A} = {953B2D8E-E230-4A2C-88EB-607E5291B86E}
+	EndGlobalSection
+EndGlobal
