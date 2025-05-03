@@ -7,6 +7,7 @@
         <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
         <RootNamespace>R.FastEndpoints.Generators</RootNamespace>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <NoWarn>NU5128</NoWarn>
 
         <IsPackable>true</IsPackable>
         <IsRoslynComponent>true</IsRoslynComponent>
