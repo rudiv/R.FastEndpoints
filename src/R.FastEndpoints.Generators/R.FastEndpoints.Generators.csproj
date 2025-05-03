@@ -2,15 +2,15 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
-        <IsPackable>false</IsPackable>
         <Nullable>enable</Nullable>
         <LangVersion>latest</LangVersion>
-
         <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+        <RootNamespace>R.FastEndpoints.Generators</RootNamespace>
+
+        <IsPackable>true</IsPackable>
         <IsRoslynComponent>true</IsRoslynComponent>
         <OutputType>Library</OutputType>
         <IncludeBuildOutput>false</IncludeBuildOutput>
-        <RootNamespace>R.FastEndpoints.Generators</RootNamespace>
         <PackageId>R.FastEndpoints.Generators</PackageId>
         <RepositoryUrl>https://github.com/rudiv/R.FastEndpoints</RepositoryUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
