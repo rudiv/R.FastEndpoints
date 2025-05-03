@@ -7,8 +7,8 @@ Anything else that would help you but doesn't fit in FE core? Raise an issue.
 ## Packages
 
 - **Core Extensions** [![R.FastEndpoints](https://img.shields.io/nuget/v/R.FastEndpoints?style=for-the-badge&logo=nuget&label=R.FastEndpoints&labelColor=darkblue&color=lightgreen)](https://nuget.org/packages/R.FastEndpoints)
-- **Source Generators** [![R.FastEndpoints.Generators](https://img.shields.io/nuget/v/R.FastEndpoints.Generators?style=for-the-badge&logo=nuget&label=R.FastEndpoints&labelColor=darkblue&color=lightgreen)](https://nuget.org/packages/R.FastEndpoints.Generators)
-- **MessagePack Support** [![R.FastEndpoints.MessagePack](https://img.shields.io/nuget/v/R.FastEndpoints.MessagePack?style=for-the-badge&logo=nuget&label=R.FastEndpoints&labelColor=darkblue&color=lightgreen)](https://nuget.org/packages/R.FastEndpoints.MessagePack)
+- **Source Generators** [![R.FastEndpoints.Generators](https://img.shields.io/nuget/v/R.FastEndpoints.Generators?style=for-the-badge&logo=nuget&label=R.FastEndpoints.Generators&labelColor=darkblue&color=lightgreen)](https://nuget.org/packages/R.FastEndpoints.Generators)
+- **MessagePack Support** [![R.FastEndpoints.MessagePack](https://img.shields.io/nuget/v/R.FastEndpoints.MessagePack?style=for-the-badge&logo=nuget&label=R.FastEndpoints.MessagePack&labelColor=darkblue&color=lightgreen)](https://nuget.org/packages/R.FastEndpoints.MessagePack)
 
 ## Functionality
 
