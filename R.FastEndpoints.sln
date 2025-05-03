@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R.FastEndpoints.MessagePack
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R.FastEndpoints.TestWeb", "tests\R.FastEndpoints.TestWeb\R.FastEndpoints.TestWeb.csproj", "{F4F6D238-6978-4BD7-934F-5D9AD5D4B7E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R.FastEndpoints.IntegrationTests", "R.FastEndpoints.IntegrationTests\R.FastEndpoints.IntegrationTests.csproj", "{28FB4DE4-9799-4898-ADEF-FC691ECFDF4A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R.FastEndpoints.IntegrationTests", "tests\R.FastEndpoints.IntegrationTests\R.FastEndpoints.IntegrationTests.csproj", "{28FB4DE4-9799-4898-ADEF-FC691ECFDF4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

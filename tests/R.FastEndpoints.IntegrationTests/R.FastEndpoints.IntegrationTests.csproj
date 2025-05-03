@@ -24,7 +24,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\tests\R.FastEndpoints.TestWeb\R.FastEndpoints.TestWeb.csproj" />
+      <ProjectReference Include="..\R.FastEndpoints.TestWeb\R.FastEndpoints.TestWeb.csproj" />
     </ItemGroup>
 
 </Project>
