@@ -15,8 +15,8 @@ namespace R.FastEndpoints.IntegrationTests;
 
 public abstract class WafTestBase : IAsyncLifetime
 {
-    public WebApplicationFactory<Program> App { get; private set; }
-    public HttpClient Client { get; private set; }
+    public WebApplicationFactory<Program> App { get; private set; } = default!;
+    public HttpClient Client { get; private set; } = default!;
     
     public ValueTask InitializeAsync()
     {
