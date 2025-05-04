@@ -31,7 +31,7 @@ app.UseFastEndpoints(c => {
 
 ### MessagePack Support
 
-Add `Rudi.Dev.FastEndpoints.MessagePack` from NuGet.
+Add `R.FastEndpoints.MessagePack` from NuGet.
 
 To add support for input bindings globally, you need to call `.AddMessagePackBinding()` before `.AddFastEndpoints()`, and add `.ConfigureInboundMessagePack()` to a global configurator within FastEndpoints.
 
